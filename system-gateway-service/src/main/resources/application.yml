@@ -1,0 +1,134 @@
+spring:
+  application:
+    name: system-gateway
+  profiles:
+    active:
+      - ${ACTIVE_CONFIG:local}
+  datasource:
+    mysql:
+      url: ${JDBC_URL:jdbc:mysql://localhost:9193/systemgateway}
+      username: ${JDBC_USERNAME:neurio}
+      password: ${JDBC_PASSWORD}
+      hikari:
+        maximumPoolSize: 200
+        minimumIdle: 10
+    clickhouse:
+      driver-class-name: com.clickhouse.jdbc.ClickHouseDriver
+      url: ${CH_JDBC_URL:jdbc:ch://http://localhost:8123/default?compress_algorithm=gzip}
+      # compression is gzip as LZ4 isn't supported
+      username: ${CH_JDBC_USERNAME:default}
+      password: ${CH_JDBC_PASSWORD}
+      hikari:
+        maximumPoolSize: 200
+        minimumIdle: 10
+  flyway:
+    enabled: true
+
+  redis:
+    host: ${REDIS_HOST:localhost}
+    port: ${REDIS_PORT:6380}
+  jpa:
+    show-sql: false
+    hibernate:
+      ddl-auto: none
+      naming:
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQLInnoDBDialect
+        globally_quoted_identifiers: true
+        format_sql: false
+        session:
+          events:
+            log:
+              LOG_QUERIES_SLOWER_THAN_MS: 200
+
+logging:
+  level:
+    org.hibernate.SQL_SLOW: INFO
+    com.zaxxer.hikari: DEBUG
+
+management:
+  endpoint:
+    health:
+      show-details: ALWAYS
+  health:
+    db:
+      enabled: true
+    redis:
+      enabled: true
+
+server:
+  servlet:
+    context-path: ${LISTENER_RULE_PATH_PATTERN:/system-gateway}
+  port: ${PORT:8091}
+  error:
+    include-stacktrace: on_param
+    include-message: always
+
+subscription-kinesis-sink:
+  endpoint: ${SUBSCRIPTION_KINESIS_SINK_ENDPOINT:https://kinesis.us-east-1.amazonaws.com}
+  region: ${SUBSCRIPTION_KINESIS_SINK_REGION:us-east-1}
+  stream-name: ${SUBSCRIPTION_KINESIS_SINK_STREAM_NAME:system-gateway-subscription-dev}
+
+rate-limitation:
+  lastDays: ${RATE_LIMITATION_LAST_DAYS:1}
+
+web-client:
+  simulatorUrl: ${DEVICE_SIMULATOR_URL:http://localhost:8055/simulator}
+  odinUrl: ${ODIN_MS_URL:http://localhost:8181/systemControl/v1}
+  systemUrl: ${SYSTEM_MS_URL:http://localhost:9191/system/internal/v1}
+  systemV2Url: ${SYSTEM_MS_V2_URL:http://localhost:9191/system-v2/internal/v1/systems}
+  siteUrl: ${SITE_MS_URL:http://localhost:9191/sites/internal/v1/systems}
+  miSystemUrl: ${MI_SYSTEM_MS_URL:http://localhost:9191/microinverter-system/internal/v1/systems}
+  essDpUrl: ${ESS_DATA_PROVIDER_MICROSERVICE_URL:http://localhost:8035/ess-dataprovider/v1}
+
+cache:
+  systemSettingsRedisCache:
+    systemSettingsTtlSeconds: 60
+    requestRateLimitSeconds: 15
+  essSystemMsCache:
+    maxElements: 10000
+    ttlSeconds: 900
+  systemMsV2Cache:
+    maxElements: 10000
+    ttlSeconds: 900
+  siteMsCache:
+    maxElements: 10000
+    ttlSeconds: 900
+  # will be deprecated once fully switched to redis cache
+  remoteSettingsCache:
+    maxElements: 10000
+    ttlSeconds: 15
+
+async:
+  # these are initial values that would potentially be updated after load testing
+  corePoolSize: 30
+
+---
+spring:
+  profiles: local
+
+web-client:
+  firmwareManagementUrl: http://localhost:8055/firmware-management
+
+---
+spring:
+  profiles: dev
+
+web-client:
+  firmwareManagementUrl: http://pwrview-dev.neurio.internal/firmware-management
+
+---
+spring:
+  profiles: stg
+
+web-client:
+  firmwareManagementUrl: http://pwrview-stg.neurio.internal/firmware-management
+
+---
+spring:
+  profiles: prd
+
+web-client:
+  firmwareManagementUrl: http://pwrview-prd.neurio.internal/firmware-management

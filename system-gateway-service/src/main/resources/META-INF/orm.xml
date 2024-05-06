@@ -1,0 +1,86 @@
+<entity-mappings xmlns="http://xmlns.jcp.org/xml/ns/persistence/orm"
+                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                 xsi:schemaLocation="
+                     http://xmlns.jcp.org/xml/ns/persistence/orm
+                     http://xmlns.jcp.org/xml/ns/persistence/orm_2_1.xsd"
+                 version="2.1">
+    <package>com.generac.ces.systemgateway.repository.subscription</package>
+
+    <named-native-query name="SubscriptionAudit.maxExpirationTimesForSystems">
+        <query>
+            SELECT
+               sa.system_id AS systemId,
+               sa.system_type AS systemType,
+               max(sa.expires_at) AS maxExpiry
+            FROM
+               systemgateway.subscription_audit sa
+            WHERE
+               sa.resource_type = ?1 AND
+               sa.created_at >= ?2 AND
+               sa.system_id IN ?3
+            GROUP BY
+               sa.system_id,
+               sa.system_type
+        </query>
+    </named-native-query>
+
+    <entity class="com.generac.ces.systemgateway.entity.subscription.SubscriptionAudit">
+        <table name="subscription_audit" />
+        <named-query name="SubscriptionAudit.currentSubscriptionsForSystemAndSubscriber">
+            <query>
+                SELECT
+                   sa
+                FROM
+                   SubscriptionAudit sa
+                WHERE
+                   sa.systemType = ?1 AND
+                   sa.resourceType = ?2 AND
+                   sa.systemId = ?3 AND
+                   sa.subscriberType = ?4 AND
+                   sa.expiresAt > ?5
+                ORDER BY sa.createdAt DESC
+            </query>
+        </named-query>
+    </entity>
+    <entity class="com.generac.ces.systemgateway.entity.subscription.SubscriptionMetric">
+        <table name="subscription_metric" />
+        <named-query name="SubscriptionMetric.findByParameters">
+            <query>
+                SELECT
+                   sm
+                FROM
+                   SubscriptionMetric sm
+                WHERE
+                   sm.systemId = ?1 AND
+                   sm.systemType = ?2 AND
+                   sm.resourceType = ?3
+            </query>
+        </named-query>
+        <named-query name="SubscriptionMetric.getUsedQuota">
+            <query>
+                SELECT
+                   sm.totalDailyDurationSec
+                FROM
+                   SubscriptionMetric sm
+                WHERE
+                   sm.systemId = ?1 AND
+                   sm.systemType = ?2 AND
+                   sm.resourceType = ?3 AND
+                   sm.subscriberType = ?4
+            </query>
+        </named-query>
+        <named-query name="SubscriptionMetric.getMaxExpiryByParameters">
+            <query>
+                SELECT
+                   max(sm.expiresAt)
+                FROM
+                   SubscriptionMetric sm
+                WHERE
+                   sm.systemId = ?1 AND
+                   sm.systemType = ?2 AND
+                   sm.resourceType = ?3
+            </query>
+        </named-query>
+    </entity>
+
+</entity-mappings>

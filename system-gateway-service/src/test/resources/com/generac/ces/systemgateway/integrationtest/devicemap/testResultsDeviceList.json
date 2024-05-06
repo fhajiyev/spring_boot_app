@@ -1,0 +1,1266 @@
+[
+  {
+    "systemId": "373725e6-37e6-4cd4-8445-9efb78a0aeb5",
+    "devices": [
+      {
+        "deviceId": "000100000813",
+        "deviceType": "ICM",
+        "properties": [
+          {
+            "name": "state",
+            "value": "16",
+            "type": "DOUBLE"
+          },
+          {
+            "name": "stateText",
+            "value": "disabled",
+            "type": "STRING"
+          },
+          {
+            "name": "lastUpdate",
+            "value": "1605964790",
+            "type": "DOUBLE"
+          }
+        ]
+      },
+      {
+        "deviceId": "00010000087F",
+        "deviceType": "ICM",
+        "properties": [
+          {
+            "name": "state",
+            "value": "16",
+            "type": "DOUBLE"
+          },
+          {
+            "name": "stateText",
+            "value": "disabled",
+            "type": "STRING"
+          },
+          {
+            "name": "lastUpdate",
+            "value": "1605964799",
+            "type": "DOUBLE"
+          }
+        ]
+      },
+      {
+        "deviceId": "00010000088C",
+        "deviceType": "ICM",
+        "properties": [
+          {
+            "name": "state",
+            "value": "8192",
+            "type": "DOUBLE"
+          },
+          {
+            "name": "stateText",
+            "value": "running",
+            "type": "STRING"
+          },
+          {
+            "name": "lastUpdate",
+            "value": "1605965438",
+            "type": "DOUBLE"
+          }
+        ]
+      },
+      {
+        "deviceId": "000100000891",
+        "deviceType": "ICM",
+        "properties": [
+          {
+            "name": "state",
+            "value": "8192",
+            "type": "DOUBLE"
+          },
+          {
+            "name": "stateText",
+            "value": "running",
+            "type": "STRING"
+          },
+          {
+            "name": "lastUpdate",
+            "value": "1616247099",
+            "type": "DOUBLE"
+          }
+        ]
+      },
+      {
+        "deviceId": "0001000355F4",
+        "deviceType": "PVLINK",
+        "properties": [
+          {
+            "name": "manufacturer",
+            "value": "Pika",
+            "type": "STRING"
+          },
+          {
+            "name": "name",
+            "value": "PV Link",
+            "type": "STRING"
+          },
+          {
+            "name": "version",
+            "value": "634_13550",
+            "type": "STRING"
+          },
+          {
+            "name": "state",
+            "value": "8208",
+            "type": "DOUBLE"
+          },
+          {
+            "name": "stateText",
+            "value": "making power",
+            "type": "STRING"
+          },
+          {
+            "name": "lastUpdate",
+            "value": "1616247102",
+            "type": "DOUBLE"
+          },
+          {
+            "name": "artg",
+            "value": "13.0",
+            "type": "DOUBLE"
+          },
+          {
+            "name": "wrtg",
+            "value": "2500.0",
+            "type": "DOUBLE"
+          }
+        ]
+      },
+      {
+        "deviceId": "000100035642",
+        "deviceType": "PVLINK",
+        "properties": [
+          {
+            "name": "state",
+            "value": "0",
+            "type": "DOUBLE"
+          },
+          {
+            "name": "stateText",
+            "value": "device offline",
+            "type": "STRING"
+          },
+          {
+            "name": "lastUpdate",
+            "value": "0",
+            "type": "DOUBLE"
+          },
+          {
+            "name": "artg",
+            "value": "13.0",
+            "type": "DOUBLE"
+          },
+          {
+            "name": "wrtg",
+            "value": "2500.0",
+            "type": "DOUBLE"
+          }
+        ]
+      },
+      {
+        "deviceId": "0001000356AC",
+        "deviceType": "PVLINK",
+        "properties": [
+          {
+            "name": "manufacturer",
+            "value": "Pika",
+            "type": "STRING"
+          },
+          {
+            "name": "name",
+            "value": "PV Link",
+            "type": "STRING"
+          },
+          {
+            "name": "version",
+            "value": "634_13550",
+            "type": "STRING"
+          },
+          {
+            "name": "state",
+            "value": "8208",
+            "type": "DOUBLE"
+          },
+          {
+            "name": "stateText",
+            "value": "making power",
+            "type": "STRING"
+          },
+          {
+            "name": "lastUpdate",
+            "value": "1616247100",
+            "type": "DOUBLE"
+          },
+          {
+            "name": "artg",
+            "value": "13.0",
+            "type": "DOUBLE"
+          },
+          {
+            "name": "wrtg",
+            "value": "2500.0",
+            "type": "DOUBLE"
+          }
+        ]
+      },
+      {
+        "deviceId": "000100035706",
+        "deviceType": "PVLINK",
+        "properties": [
+          {
+            "name": "manufacturer",
+            "value": "Pika",
+            "type": "STRING"
+          },
+          {
+            "name": "name",
+            "value": "PV Link",
+            "type": "STRING"
+          },
+          {
+            "name": "version",
+            "value": "634_13550",
+            "type": "STRING"
+          },
+          {
+            "name": "state",
+            "value": "8208",
+            "type": "DOUBLE"
+          },
+          {
+            "name": "stateText",
+            "value": "making power",
+            "type": "STRING"
+          },
+          {
+            "name": "lastUpdate",
+            "value": "1616247103",
+            "type": "DOUBLE"
+          },
+          {
+            "name": "artg",
+            "value": "13.0",
+            "type": "DOUBLE"
+          },
+          {
+            "name": "wrtg",
+            "value": "2500.0",
+            "type": "DOUBLE"
+          }
+        ]
+      },
+      {
+        "deviceId": "000100035757",
+        "deviceType": "PVLINK",
+        "properties": [
+          {
+            "name": "manufacturer",
+            "value": "Pika",
+            "type": "STRING"
+          },
+          {
+            "name": "name",
+            "value": "PV Link",
+            "type": "STRING"
+          },
+          {
+            "name": "version",
+            "value": "634_13550",
+            "type": "STRING"
+          },
+          {
+            "name": "state",
+            "value": "8208",
+            "type": "DOUBLE"
+          },
+          {
+            "name": "stateText",
+            "value": "making power",
+            "type": "STRING"
+          },
+          {
+            "name": "lastUpdate",
+            "value": "1616247099",
+            "type": "DOUBLE"
+          },
+          {
+            "name": "artg",
+            "value": "13.0",
+            "type": "DOUBLE"
+          },
+          {
+            "name": "wrtg",
+            "value": "2500.0",
+            "type": "DOUBLE"
+          }
+        ]
+      },
+      {
+        "deviceId": "000100035853",
+        "deviceType": "PVLINK",
+        "properties": [
+          {
+            "name": "state",
+            "value": "288",
+            "type": "DOUBLE"
+          },
+          {
+            "name": "stateText",
+            "value": "connecting to REbus",
+            "type": "STRING"
+          },
+          {
+            "name": "lastUpdate",
+            "value": "1605964740",
+            "type": "DOUBLE"
+          },
+          {
+            "name": "artg",
+            "value": "13.0",
+            "type": "DOUBLE"
+          },
+          {
+            "name": "wrtg",
+            "value": "2500.0",
+            "type": "DOUBLE"
+          }
+        ]
+      },
+      {
+        "deviceId": "000100035888",
+        "deviceType": "PVLINK",
+        "properties": [
+          {
+            "name": "state",
+            "value": "288",
+            "type": "DOUBLE"
+          },
+          {
+            "name": "stateText",
+            "value": "connecting to REbus",
+            "type": "STRING"
+          },
+          {
+            "name": "lastUpdate",
+            "value": "1605964740",
+            "type": "DOUBLE"
+          },
+          {
+            "name": "artg",
+            "value": "13.0",
+            "type": "DOUBLE"
+          },
+          {
+            "name": "wrtg",
+            "value": "2500.0",
+            "type": "DOUBLE"
+          }
+        ]
+      },
+      {
+        "deviceId": "000100035928",
+        "deviceType": "PVLINK",
+        "properties": [
+          {
+            "name": "manufacturer",
+            "value": "Pika",
+            "type": "STRING"
+          },
+          {
+            "name": "name",
+            "value": "PV Link",
+            "type": "STRING"
+          },
+          {
+            "name": "version",
+            "value": "634_13550",
+            "type": "STRING"
+          },
+          {
+            "name": "state",
+            "value": "8208",
+            "type": "DOUBLE"
+          },
+          {
+            "name": "stateText",
+            "value": "making power",
+            "type": "STRING"
+          },
+          {
+            "name": "lastUpdate",
+            "value": "1616247098",
+            "type": "DOUBLE"
+          },
+          {
+            "name": "artg",
+            "value": "13.0",
+            "type": "DOUBLE"
+          },
+          {
+            "name": "wrtg",
+            "value": "2500.0",
+            "type": "DOUBLE"
+          }
+        ]
+      },
+      {
+        "deviceId": "000100035F80",
+        "deviceType": "PVLINK",
+        "properties": [
+          {
+            "name": "state",
+            "value": "288",
+            "type": "DOUBLE"
+          },
+          {
+            "name": "stateText",
+            "value": "connecting to REbus",
+            "type": "STRING"
+          },
+          {
+            "name": "lastUpdate",
+            "value": "1605964740",
+            "type": "DOUBLE"
+          },
+          {
+            "name": "artg",
+            "value": "13.0",
+            "type": "DOUBLE"
+          },
+          {
+            "name": "wrtg",
+            "value": "2500.0",
+            "type": "DOUBLE"
+          }
+        ]
+      },
+      {
+        "deviceId": "0001000386B1",
+        "deviceType": "PVLINK",
+        "properties": [
+          {
+            "name": "state",
+            "value": "8208",
+            "type": "DOUBLE"
+          },
+          {
+            "name": "stateText",
+            "value": "making power",
+            "type": "STRING"
+          },
+          {
+            "name": "lastUpdate",
+            "value": "1608246485",
+            "type": "DOUBLE"
+          },
+          {
+            "name": "artg",
+            "value": "13.0",
+            "type": "DOUBLE"
+          },
+          {
+            "name": "wrtg",
+            "value": "2500.0",
+            "type": "DOUBLE"
+          }
+        ]
+      },
+      {
+        "deviceId": "000100038798",
+        "deviceType": "PVLINK",
+        "properties": [
+          {
+            "name": "state",
+            "value": "12544",
+            "type": "DOUBLE"
+          },
+          {
+            "name": "stateText",
+            "value": "low sun",
+            "type": "STRING"
+          },
+          {
+            "name": "lastUpdate",
+            "value": "1608246485",
+            "type": "DOUBLE"
+          },
+          {
+            "name": "artg",
+            "value": "13.0",
+            "type": "DOUBLE"
+          },
+          {
+            "name": "wrtg",
+            "value": "2500.0",
+            "type": "DOUBLE"
+          }
+        ]
+      },
+      {
+        "deviceId": "0001000387CF",
+        "deviceType": "PVLINK",
+        "properties": [
+          {
+            "name": "state",
+            "value": "8208",
+            "type": "DOUBLE"
+          },
+          {
+            "name": "stateText",
+            "value": "making power",
+            "type": "STRING"
+          },
+          {
+            "name": "lastUpdate",
+            "value": "1608246487",
+            "type": "DOUBLE"
+          },
+          {
+            "name": "artg",
+            "value": "13.0",
+            "type": "DOUBLE"
+          },
+          {
+            "name": "wrtg",
+            "value": "2500.0",
+            "type": "DOUBLE"
+          }
+        ]
+      },
+      {
+        "deviceId": "00010003A2DA",
+        "deviceType": "PVLINK",
+        "properties": [
+          {
+            "name": "state",
+            "value": "256",
+            "type": "DOUBLE"
+          },
+          {
+            "name": "stateText",
+            "value": "initializing",
+            "type": "STRING"
+          },
+          {
+            "name": "lastUpdate",
+            "value": "1606008053",
+            "type": "DOUBLE"
+          }
+        ]
+      },
+      {
+        "deviceId": "000100071F39",
+        "deviceType": "INVERTER",
+        "properties": [
+          {
+            "name": "state",
+            "value": "16",
+            "type": "DOUBLE"
+          },
+          {
+            "name": "stateText",
+            "value": "disabled",
+            "type": "STRING"
+          },
+          {
+            "name": "lastUpdate",
+            "value": "1605964803",
+            "type": "DOUBLE"
+          },
+          {
+            "name": "artg",
+            "value": "32.0",
+            "type": "DOUBLE"
+          },
+          {
+            "name": "wrtg",
+            "value": "7600.0",
+            "type": "DOUBLE"
+          },
+          {
+            "name": "vaRtg",
+            "value": "7600.0",
+            "type": "DOUBLE"
+          }
+        ]
+      },
+      {
+        "deviceId": "000100071F54",
+        "deviceType": "INVERTER",
+        "properties": [
+          {
+            "name": "state",
+            "value": "784",
+            "type": "DOUBLE"
+          },
+          {
+            "name": "stateText",
+            "value": "waiting",
+            "type": "STRING"
+          },
+          {
+            "name": "lastUpdate",
+            "value": "1605965366",
+            "type": "DOUBLE"
+          }
+        ]
+      },
+      {
+        "deviceId": "0001000720CF",
+        "deviceType": "INVERTER",
+        "properties": [
+          {
+            "name": "state",
+            "value": "33536",
+            "type": "DOUBLE"
+          },
+          {
+            "name": "stateText",
+            "value": "sysmode change",
+            "type": "STRING"
+          },
+          {
+            "name": "lastUpdate",
+            "value": "1605964808",
+            "type": "DOUBLE"
+          },
+          {
+            "name": "artg",
+            "value": "32.0",
+            "type": "DOUBLE"
+          },
+          {
+            "name": "wrtg",
+            "value": "7600.0",
+            "type": "DOUBLE"
+          },
+          {
+            "name": "vaRtg",
+            "value": "7600.0",
+            "type": "DOUBLE"
+          }
+        ]
+      },
+      {
+        "deviceId": "0001000720D0",
+        "deviceType": "INVERTER",
+        "properties": [
+          {
+            "name": "manufacturer",
+            "value": "Generac",
+            "type": "STRING"
+          },
+          {
+            "name": "name",
+            "value": "PWRcell X7602 Inverter",
+            "type": "STRING"
+          },
+          {
+            "name": "version",
+            "value": "1002_13560",
+            "type": "STRING"
+          },
+          {
+            "name": "state",
+            "value": "2080",
+            "type": "DOUBLE"
+          },
+          {
+            "name": "stateText",
+            "value": "grid connected",
+            "type": "STRING"
+          },
+          {
+            "name": "lastUpdate",
+            "value": "1616247103",
+            "type": "DOUBLE"
+          },
+          {
+            "name": "artg",
+            "value": "32.0",
+            "type": "DOUBLE"
+          },
+          {
+            "name": "wrtg",
+            "value": "7600.0",
+            "type": "DOUBLE"
+          },
+          {
+            "name": "vaRtg",
+            "value": "7600.0",
+            "type": "DOUBLE"
+          },
+          {
+            "name": "serialNumber",
+            "value": "0001000720D0",
+            "type": "STRING"
+          }
+        ]
+      },
+      {
+        "deviceId": "0001000805A4",
+        "deviceType": "BATTERY",
+        "properties": [
+          {
+            "name": "manufacturer",
+            "value": "Pika",
+            "type": "STRING"
+          },
+          {
+            "name": "name",
+            "value": "Smart Battery",
+            "type": "STRING"
+          },
+          {
+            "name": "version",
+            "value": "1217_12751",
+            "type": "STRING"
+          },
+          {
+            "name": "state",
+            "value": "24576",
+            "type": "DOUBLE"
+          },
+          {
+            "name": "stateText",
+            "value": "charging",
+            "type": "STRING"
+          },
+          {
+            "name": "lastUpdate",
+            "value": "1616247100",
+            "type": "DOUBLE"
+          },
+          {
+            "name": "ahRtg",
+            "value": "60.9",
+            "type": "DOUBLE"
+          },
+          {
+            "name": "whRtg",
+            "value": "17100.0",
+            "type": "DOUBLE"
+          },
+          {
+            "name": "wchaMax",
+            "value": "9828.0",
+            "type": "DOUBLE"
+          },
+          {
+            "name": "wdischaMax",
+            "value": "9828.0",
+            "type": "DOUBLE"
+          },
+          {
+            "name": "socMax",
+            "value": "100.0",
+            "type": "DOUBLE"
+          },
+          {
+            "name": "socMin",
+            "value": "2.0",
+            "type": "DOUBLE"
+          },
+          {
+            "name": "socRsvMax",
+            "value": "100.0",
+            "type": "DOUBLE"
+          },
+          {
+            "name": "socRsvMin",
+            "value": "20.0",
+            "type": "DOUBLE"
+          },
+          {
+            "name": "achaMax",
+            "value": "10.0",
+            "type": "DOUBLE"
+          },
+          {
+            "name": "adischaMax",
+            "value": "2.0",
+            "type": "DOUBLE"
+          }
+        ]
+      },
+      {
+        "deviceId": "000100081AF3",
+        "deviceType": "BATTERY",
+        "properties": [
+          {
+            "name": "manufacturer",
+            "value": "Generac",
+            "type": "STRING"
+          },
+          {
+            "name": "name",
+            "value": "PWRcell Battery",
+            "type": "STRING"
+          },
+          {
+            "name": "version",
+            "value": "12171_12751",
+            "type": "STRING"
+          },
+          {
+            "name": "state",
+            "value": "768",
+            "type": "DOUBLE"
+          },
+          {
+            "name": "stateText",
+            "value": "standby",
+            "type": "STRING"
+          },
+          {
+            "name": "lastUpdate",
+            "value": "1616247099",
+            "type": "DOUBLE"
+          },
+          {
+            "name": "ahRtg",
+            "value": "60.9",
+            "type": "DOUBLE"
+          },
+          {
+            "name": "whRtg",
+            "value": "8550.0",
+            "type": "DOUBLE"
+          },
+          {
+            "name": "wchaMax",
+            "value": "4914.0",
+            "type": "DOUBLE"
+          },
+          {
+            "name": "wdischaMax",
+            "value": "4914.0",
+            "type": "DOUBLE"
+          },
+          {
+            "name": "socMax",
+            "value": "100.0",
+            "type": "DOUBLE"
+          },
+          {
+            "name": "socMin",
+            "value": "2.0",
+            "type": "DOUBLE"
+          },
+          {
+            "name": "socRsvMax",
+            "value": "100.0",
+            "type": "DOUBLE"
+          },
+          {
+            "name": "socRsvMin",
+            "value": "20.0",
+            "type": "DOUBLE"
+          },
+          {
+            "name": "achaMax",
+            "value": "10.0",
+            "type": "DOUBLE"
+          },
+          {
+            "name": "adischaMax",
+            "value": "2.0",
+            "type": "DOUBLE"
+          }
+        ]
+      },
+      {
+        "deviceId": "0001000R4092",
+        "deviceType": "LOAD_CONTROLLER",
+        "properties": [
+          {
+            "name": "manufacturer",
+            "value": "Generac",
+            "type": "STRING"
+          },
+          {
+            "name": "name",
+            "value": "LOAD_CONTROLLER",
+            "type": "STRING"
+          },
+          {
+            "name": "lastUpdate",
+            "value": "1616247100",
+            "type": "DOUBLE"
+          }
+        ]
+      },
+      {
+        "deviceId": "0001000SUR75",
+        "deviceType": "GENERATOR",
+        "properties": [
+          {
+            "name": "manufacturer",
+            "value": "Generac",
+            "type": "STRING"
+          },
+          {
+            "name": "name",
+            "value": "Generator",
+            "type": "STRING"
+          },
+          {
+            "name": "version",
+            "value": "634_13550",
+            "type": "STRING"
+          },
+          {
+            "name": "lastUpdate",
+            "value": "1616247102",
+            "type": "DOUBLE"
+          }
+        ]
+      },
+      {
+        "deviceId": "000100120214",
+        "deviceType": "BEACON",
+        "properties": [
+          {
+            "name": "state",
+            "value": "16",
+            "type": "DOUBLE"
+          },
+          {
+            "name": "stateText",
+            "value": "disabled",
+            "type": "STRING"
+          },
+          {
+            "name": "lastUpdate",
+            "value": "1605965342",
+            "type": "DOUBLE"
+          }
+        ]
+      },
+      {
+        "deviceId": "000100120219",
+        "deviceType": "BEACON",
+        "properties": [
+          {
+            "name": "state",
+            "value": "4864",
+            "type": "DOUBLE"
+          },
+          {
+            "name": "stateText",
+            "value": "running, overridden",
+            "type": "STRING"
+          },
+          {
+            "name": "lastUpdate",
+            "value": "1605964814",
+            "type": "DOUBLE"
+          }
+        ]
+      },
+      {
+        "deviceId": "000100120268",
+        "deviceType": "BEACON",
+        "properties": [
+          {
+            "name": "manufacturer",
+            "value": "Generac",
+            "type": "STRING"
+          },
+          {
+            "name": "name",
+            "value": "REbus Beacon",
+            "type": "STRING"
+          },
+          {
+            "name": "version",
+            "value": "patch.20210128",
+            "type": "STRING"
+          },
+          {
+            "name": "state",
+            "value": "16",
+            "type": "DOUBLE"
+          },
+          {
+            "name": "stateText",
+            "value": "disabled",
+            "type": "STRING"
+          },
+          {
+            "name": "lastUpdate",
+            "value": "1616247102",
+            "type": "DOUBLE"
+          }
+        ]
+      },
+      {
+        "deviceId": "00010012026B",
+        "deviceType": "BEACON",
+        "properties": [
+          {
+            "name": "state",
+            "value": "16",
+            "type": "DOUBLE"
+          },
+          {
+            "name": "stateText",
+            "value": "disabled",
+            "type": "STRING"
+          },
+          {
+            "name": "lastUpdate",
+            "value": "1605964781",
+            "type": "DOUBLE"
+          }
+        ]
+      },
+      {
+        "deviceId": "SAH4187AA1367",
+        "deviceType": "RGM",
+        "properties": [
+          {
+            "name": "manufacturer",
+            "value": "Pika",
+            "type": "STRING"
+          },
+          {
+            "name": "name",
+            "value": "RGM",
+            "type": "STRING"
+          },
+          {
+            "name": "version",
+            "value": "634_13550",
+            "type": "STRING"
+          },
+          {
+            "name": "lastUpdate",
+            "value": "1612817611",
+            "type": "DOUBLE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "systemId": "45df47dd-63c6-47ba-849b-a2ca92e36db9",
+    "devices": []
+  },
+  {
+    "systemId": "5d1a0824-49cc-4cfb-980f-76b13583fe24",
+    "devices": [
+      {
+        "deviceId": "000100001BAB",
+        "deviceType": "ICM",
+        "properties": [
+          {
+            "name": "state",
+            "value": "8192",
+            "type": "DOUBLE"
+          },
+          {
+            "name": "stateText",
+            "value": "running",
+            "type": "STRING"
+          },
+          {
+            "name": "lastUpdate",
+            "value": "1615409649",
+            "type": "DOUBLE"
+          }
+        ]
+      },
+      {
+        "deviceId": "000100035550",
+        "deviceType": "PVLINK",
+        "properties": [
+          {
+            "name": "manufacturer",
+            "value": "Pika",
+            "type": "STRING"
+          },
+          {
+            "name": "name",
+            "value": "PV Link",
+            "type": "STRING"
+          },
+          {
+            "name": "version",
+            "value": "634_13550",
+            "type": "STRING"
+          },
+          {
+            "name": "state",
+            "value": "8208",
+            "type": "DOUBLE"
+          },
+          {
+            "name": "stateText",
+            "value": "making power",
+            "type": "STRING"
+          },
+          {
+            "name": "lastUpdate",
+            "value": "1615409651",
+            "type": "DOUBLE"
+          },
+          {
+            "name": "artg",
+            "value": "13.0",
+            "type": "DOUBLE"
+          },
+          {
+            "name": "wrtg",
+            "value": "2500.0",
+            "type": "DOUBLE"
+          }
+        ]
+      },
+      {
+        "deviceId": "000100035B74",
+        "deviceType": "PVLINK",
+        "properties": [
+          {
+            "name": "manufacturer",
+            "value": "Pika",
+            "type": "STRING"
+          },
+          {
+            "name": "name",
+            "value": "PV Link",
+            "type": "STRING"
+          },
+          {
+            "name": "version",
+            "value": "634_13550",
+            "type": "STRING"
+          },
+          {
+            "name": "state",
+            "value": "8208",
+            "type": "DOUBLE"
+          },
+          {
+            "name": "stateText",
+            "value": "making power",
+            "type": "STRING"
+          },
+          {
+            "name": "lastUpdate",
+            "value": "1615409650",
+            "type": "DOUBLE"
+          },
+          {
+            "name": "artg",
+            "value": "13.0",
+            "type": "DOUBLE"
+          },
+          {
+            "name": "wrtg",
+            "value": "2500.0",
+            "type": "DOUBLE"
+          }
+        ]
+      },
+      {
+        "deviceId": "000100071818",
+        "deviceType": "INVERTER",
+        "properties": [
+          {
+            "name": "manufacturer",
+            "value": "Generac",
+            "type": "STRING"
+          },
+          {
+            "name": "name",
+            "value": "PWRcell X7602 Inverter",
+            "type": "STRING"
+          },
+          {
+            "name": "version",
+            "value": "1002_13430",
+            "type": "STRING"
+          },
+          {
+            "name": "state",
+            "value": "2080",
+            "type": "DOUBLE"
+          },
+          {
+            "name": "stateText",
+            "value": "grid connected",
+            "type": "STRING"
+          },
+          {
+            "name": "lastUpdate",
+            "value": "1615409651",
+            "type": "DOUBLE"
+          },
+          {
+            "name": "artg",
+            "value": "32.0",
+            "type": "DOUBLE"
+          },
+          {
+            "name": "wrtg",
+            "value": "7600.0",
+            "type": "DOUBLE"
+          },
+          {
+            "name": "vaRtg",
+            "value": "7600.0",
+            "type": "DOUBLE"
+          },
+          {
+            "name": "serialNumber",
+            "value": "000100071818",
+            "type": "STRING"
+          }
+        ]
+      },
+      {
+        "deviceId": "00010012131D",
+        "deviceType": "BEACON",
+        "properties": [
+          {
+            "name": "manufacturer",
+            "value": "Generac",
+            "type": "STRING"
+          },
+          {
+            "name": "name",
+            "value": "REbus Beacon",
+            "type": "STRING"
+          },
+          {
+            "name": "version",
+            "value": "patch.20210128",
+            "type": "STRING"
+          },
+          {
+            "name": "state",
+            "value": "16",
+            "type": "DOUBLE"
+          },
+          {
+            "name": "stateText",
+            "value": "disabled",
+            "type": "STRING"
+          },
+          {
+            "name": "lastUpdate",
+            "value": "1615409651",
+            "type": "DOUBLE"
+          }
+        ]
+      }
+    ]
+  }
+]

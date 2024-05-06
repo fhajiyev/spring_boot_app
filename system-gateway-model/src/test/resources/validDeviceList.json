@@ -1,0 +1,30 @@
+{
+  "systemId": "55742987-dcc2-4673-b2f1-c07bca2b81f8",
+  "devices":  [
+    {
+      "deviceId": "battery-id",
+      "deviceType": "BATTERY",
+      "properties": [
+        {
+          "name": "property-1",
+          "value": "some-string",
+          "type": "STRING"
+        },
+        {
+          "name": "property-2",
+          "value": "123",
+          "type": "DOUBLE"
+        },
+        {
+          "name": "property-with-no-value",
+          "type": "STRING"
+        },
+        {
+          "name": "property-with-invalid-type",
+          "type": "",
+          "value": ""
+        }
+      ]
+    }
+  ]
+}

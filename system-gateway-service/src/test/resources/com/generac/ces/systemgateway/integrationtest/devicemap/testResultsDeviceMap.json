@@ -1,0 +1,360 @@
+[
+  {
+    "systemId": "systemId1",
+    "pvls": [
+      {
+        "id": "0001000355F4",
+        "manufacturer": "Pika",
+        "name": "PV Link",
+        "version": "634_13550",
+        "state": 8208,
+        "stateText": "making power",
+        "lastUpdate": 1616247102,
+        "artg": 13.0,
+        "wrtg": 2500.0
+      },
+      {
+        "id": "000100035642",
+        "state": 0,
+        "stateText": "device offline",
+        "lastUpdate": 0,
+        "artg": 13.0,
+        "wrtg": 2500.0
+      },
+      {
+        "id": "0001000356AC",
+        "manufacturer": "Pika",
+        "name": "PV Link",
+        "version": "634_13550",
+        "state": 8208,
+        "stateText": "making power",
+        "lastUpdate": 1616247100,
+        "artg": 13.0,
+        "wrtg": 2500.0
+      },
+      {
+        "id": "000100035706",
+        "manufacturer": "Pika",
+        "name": "PV Link",
+        "version": "634_13550",
+        "state": 8208,
+        "stateText": "making power",
+        "lastUpdate": 1616247103,
+        "artg": 13.0,
+        "wrtg": 2500.0
+      },
+      {
+        "id": "000100035757",
+        "manufacturer": "Pika",
+        "name": "PV Link",
+        "version": "634_13550",
+        "state": 8208,
+        "stateText": "making power",
+        "lastUpdate": 1616247099,
+        "artg": 13.0,
+        "wrtg": 2500.0
+      },
+      {
+        "id": "000100035853",
+        "state": 288,
+        "stateText": "connecting to REbus",
+        "lastUpdate": 1605964740,
+        "artg": 13.0,
+        "wrtg": 2500.0
+      },
+      {
+        "id": "000100035888",
+        "state": 288,
+        "stateText": "connecting to REbus",
+        "lastUpdate": 1605964740,
+        "artg": 13.0,
+        "wrtg": 2500.0
+      },
+      {
+        "id": "000100035928",
+        "manufacturer": "Pika",
+        "name": "PV Link",
+        "version": "634_13550",
+        "state": 8208,
+        "stateText": "making power",
+        "lastUpdate": 1616247098,
+        "artg": 13.0,
+        "wrtg": 2500.0
+      },
+      {
+        "id": "000100035F80",
+        "state": 288,
+        "stateText": "connecting to REbus",
+        "lastUpdate": 1605964740,
+        "artg": 13.0,
+        "wrtg": 2500.0
+      },
+      {
+        "id": "0001000386B1",
+        "state": 8208,
+        "stateText": "making power",
+        "lastUpdate": 1608246485,
+        "artg": 13.0,
+        "wrtg": 2500.0
+      },
+      {
+        "id": "000100038798",
+        "state": 12544,
+        "stateText": "low sun",
+        "lastUpdate": 1608246485,
+        "artg": 13.0,
+        "wrtg": 2500.0
+      },
+      {
+        "id": "0001000387CF",
+        "state": 8208,
+        "stateText": "making power",
+        "lastUpdate": 1608246487,
+        "artg": 13.0,
+        "wrtg": 2500.0
+      },
+      {
+        "id": "00010003A2DA",
+        "state": 256,
+        "stateText": "initializing",
+        "lastUpdate": 1606008053
+      }
+    ],
+    "inverters": [
+      {
+        "id": "000100071F39",
+        "state": 16,
+        "stateText": "disabled",
+        "lastUpdate": 1605964803,
+        "artg": 32.0,
+        "wrtg": 7600.0,
+        "vaRtg": 7600.0
+      },
+      {
+        "id": "000100071F54",
+        "state": 784,
+        "stateText": "waiting",
+        "lastUpdate": 1605965366
+      },
+      {
+        "id": "0001000720CF",
+        "state": 33536,
+        "stateText": "sysmode change",
+        "lastUpdate": 1605964808,
+        "artg": 32.0,
+        "wrtg": 7600.0,
+        "vaRtg": 7600.0
+      },
+      {
+        "id": "0001000720D0",
+        "manufacturer": "Generac",
+        "name": "PWRcell X7602 Inverter",
+        "version": "1002_13560",
+        "state": 2080,
+        "stateText": "grid connected",
+        "lastUpdate": 1616247103,
+        "artg": 32.0,
+        "wrtg": 7600.0,
+        "vaRtg": 7600.0,
+        "serialNumber": "0001000720D0"
+      }
+    ],
+    "batteries": [
+      {
+        "id": "0001000805A4",
+        "manufacturer": "Pika",
+        "name": "Smart Battery",
+        "version": "1217_12751",
+        "state": 24576,
+        "stateText": "charging",
+        "lastUpdate": 1616247100,
+        "ahRtg": 60.9,
+        "whRtg": 17100.0,
+        "wchaMax": 9828.0,
+        "wdischaMax": 9828.0,
+        "socMax": 100.0,
+        "socMin": 2.0,
+        "socRsvMax": 100.0,
+        "socRsvMin": 20.0,
+        "achaMax": 10.0,
+        "adischaMax": 2.0
+      },
+      {
+        "id": "000100081AF3",
+        "manufacturer": "Generac",
+        "name": "PWRcell Battery",
+        "version": "12171_12751",
+        "state": 768,
+        "stateText": "standby",
+        "lastUpdate": 1616247099,
+        "ahRtg": 60.9,
+        "whRtg": 8550.0,
+        "wchaMax": 4914.0,
+        "wdischaMax": 4914.0,
+        "socMax": 100.0,
+        "socMin": 2.0,
+        "socRsvMax": 100.0,
+        "socRsvMin": 20.0,
+        "achaMax": 10.0,
+        "adischaMax": 2.0
+      }
+    ],
+    "beacons": [
+      {
+        "id": "000100120214",
+        "state": 16,
+        "stateText": "disabled",
+        "lastUpdate": 1605965342
+      },
+      {
+        "id": "000100120219",
+        "state": 4864,
+        "stateText": "running, overridden",
+        "lastUpdate": 1605964814
+      },
+      {
+        "id": "000100120268",
+        "manufacturer": "Generac",
+        "name": "REbus Beacon",
+        "version": "patch.20210128",
+        "state": 16,
+        "stateText": "disabled",
+        "lastUpdate": 1616247102
+      },
+      {
+        "id": "00010012026B",
+        "state": 16,
+        "stateText": "disabled",
+        "lastUpdate": 1605964781
+      }
+    ],
+    "icms": [
+      {
+        "id": "000100000813",
+        "state": 16,
+        "stateText": "disabled",
+        "lastUpdate": 1605964790
+      },
+      {
+        "id": "00010000087F",
+        "state": 16,
+        "stateText": "disabled",
+        "lastUpdate": 1605964799
+      },
+      {
+        "id": "00010000088C",
+        "state": 8192,
+        "stateText": "running",
+        "lastUpdate": 1605965438
+      },
+      {
+        "id": "000100000891",
+        "state": 8192,
+        "stateText": "running",
+        "lastUpdate": 1616247099
+      }
+    ],
+    "rgms": [
+      {
+        "id": "SAH4187AA1367",
+        "manufacturer": "Pika",
+        "name": "RGM",
+        "version": "634_13550",
+        "lastUpdate": 1612817611
+      }
+    ],
+    "generators": [
+      {
+        "id": "0001000SUR75",
+        "manufacturer": "Generac",
+        "name": "Generator",
+        "version": "634_13550",
+        "lastUpdate": 1616247102
+      }
+    ],
+    "loadcontrollers": [
+      {
+        "id": "0001000R4092",
+        "manufacturer": "Generac",
+        "name": "LOAD_CONTROLLER",
+        "lastUpdate": 1616247100
+      }
+    ]
+  },
+  {
+    "systemId": "systemId2",
+    "pvls": [
+      {
+        "id": "000100035550",
+        "manufacturer": "Pika",
+        "name": "PV Link",
+        "version": "634_13550",
+        "state": 8208,
+        "stateText": "making power",
+        "lastUpdate": 1615409651,
+        "artg": 13.0,
+        "wrtg": 2500.0
+      },
+      {
+        "id": "000100035B74",
+        "manufacturer": "Pika",
+        "name": "PV Link",
+        "version": "634_13550",
+        "state": 8208,
+        "stateText": "making power",
+        "lastUpdate": 1615409650,
+        "artg": 13.0,
+        "wrtg": 2500.0
+      }
+    ],
+    "inverters": [
+      {
+        "id": "000100071818",
+        "manufacturer": "Generac",
+        "name": "PWRcell X7602 Inverter",
+        "version": "1002_13430",
+        "state": 2080,
+        "stateText": "grid connected",
+        "lastUpdate": 1615409651,
+        "artg": 32.0,
+        "wrtg": 7600.0,
+        "vaRtg": 7600.0,
+        "serialNumber": "000100071818"
+      }
+    ],
+    "batteries": [],
+    "beacons": [
+      {
+        "id": "00010012131D",
+        "manufacturer": "Generac",
+        "name": "REbus Beacon",
+        "version": "patch.20210128",
+        "state": 16,
+        "stateText": "disabled",
+        "lastUpdate": 1615409651
+      }
+    ],
+    "icms": [
+      {
+        "id": "000100001BAB",
+        "state": 8192,
+        "stateText": "running",
+        "lastUpdate": 1615409649
+      }
+    ],
+    "rgms": [],
+    "generators": [],
+    "loadcontrollers": []
+  },
+  {
+    "systemId": "systemId3",
+    "pvls": [],
+    "inverters": [],
+    "batteries": [],
+    "beacons": [],
+    "icms": [],
+    "rgms": [],
+    "generators": [],
+    "loadcontrollers": []
+  }
+]

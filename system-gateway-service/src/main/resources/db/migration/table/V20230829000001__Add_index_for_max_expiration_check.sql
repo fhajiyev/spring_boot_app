@@ -1,0 +1,1 @@
+ALTER TABLE subscription_audit ADD INDEX max_expiration_idx (resource_type, created_at, system_id, subscriber_type, system_type);

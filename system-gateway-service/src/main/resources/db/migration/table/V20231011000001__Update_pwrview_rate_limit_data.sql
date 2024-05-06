@@ -1,0 +1,1 @@
+UPDATE rate_limit SET daily_limit_seconds = 259200 WHERE subscriber_type = 'PWRVIEW';
